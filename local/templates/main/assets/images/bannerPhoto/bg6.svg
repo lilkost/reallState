@@ -1,0 +1,18 @@
+<svg width="1296" height="560" viewBox="0 0 1296 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1296" height="560" rx="15" fill="#E0F2FF"/>
+<mask id="mask0_1309_181107" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1296" height="560">
+<rect width="1296" height="560" rx="15" fill="#E0F2FF"/>
+</mask>
+<g mask="url(#mask0_1309_181107)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M588.5 362C634.063 362 671 325.063 671 279.5C671 233.937 634.063 197 588.5 197C542.937 197 506 233.937 506 279.5C506 325.063 542.937 362 588.5 362ZM588.499 322.98C612.512 322.98 631.979 303.513 631.979 279.5C631.979 255.487 612.512 236.021 588.499 236.021C564.486 236.021 545.02 255.487 545.02 279.5C545.02 303.513 564.486 322.98 588.499 322.98Z" fill="white" fill-opacity="0.37"/>
+<rect x="536.266" y="80.2422" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="536.266" y="-4.09375" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="536.266" y="51.7031" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="535" y="23.8047" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="545.148" y="80.2422" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="545.141" y="-4.09375" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="545.141" y="51.7109" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="555.93" y="23.8047" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+<rect x="554.656" y="80.2422" width="5.07317" height="24.7317" rx="2.53659" fill="white"/>
+</g>
+</svg>

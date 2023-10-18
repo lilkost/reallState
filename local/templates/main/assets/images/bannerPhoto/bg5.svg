@@ -1,0 +1,10 @@
+<svg width="1302" height="273" viewBox="0 0 1302 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="1" width="1302" height="272" rx="29.1304" fill="#E0F2FF"/>
+<mask id="mask0_1304_179940" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="1302" height="272">
+<rect y="1" width="1302" height="272" rx="29.1304" fill="#E0F2FF"/>
+</mask>
+<g mask="url(#mask0_1304_179940)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M536 400C595.094 400 643 352.094 643 293C643 233.906 595.094 186 536 186C476.906 186 429 233.906 429 293C429 352.094 476.906 400 536 400ZM536.5 350C567.704 350 593 324.704 593 293.5C593 262.296 567.704 237 536.5 237C505.296 237 480 262.296 480 293.5C480 324.704 505.296 350 536.5 350Z" fill="white" fill-opacity="0.37"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-48 102C26.5584 102 87 41.5584 87 -33C87 -107.558 26.5584 -168 -48 -168C-122.558 -168 -183 -107.558 -183 -33C-183 41.5584 -122.558 102 -48 102ZM-48 38C-8.78778 38 23 6.21222 23 -33C23 -72.2122 -8.78778 -104 -48 -104C-87.2122 -104 -119 -72.2122 -119 -33C-119 6.21222 -87.2122 38 -48 38Z" fill="white" fill-opacity="0.37"/>
+</g>
+</svg>

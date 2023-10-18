@@ -1,0 +1,251 @@
+// hover's
+@media (min-width: 1001px) {
+    .offer__filter-btn,
+    .news__filter-btn,
+    .mortgage__btn{
+        &:hover {
+            background-color: rgba(65, 105, 224, 0.2);
+            color: var(--colorDark);
+        }
+    }
+    .offer__filter-pos{
+        &:hover {
+            background-color: var(--colorDark);
+            border-color: var(--colorDark);
+            svg {
+                path {
+                    fill: #fff;
+                }
+            }
+        }
+    }
+    .btn-middle:hover {
+        background: rgba(65, 105, 224, .8);
+    }
+    .mortgage__box-item.mortgage__box-item--btn:hover {
+        border: 1px solid rgba(65, 105, 224, 0.8);
+
+        a{
+            color: white;
+            background-color: rgba(65, 105, 224, 0.8);
+        }
+    }
+    .footer__list-social {
+        a:hover {
+            opacity: 1;
+        }
+    }
+    .footer__list-item a:hover {
+        opacity: .5;
+    }
+    .card__favotites:hover {
+        background: rgba(255,255,255,1);
+    }
+    .menu__link:hover {
+        opacity: .5;
+    }
+    .btn-error:hover {
+        background-color: var(--colorError);
+        color: white;
+    }
+    .offer__filter-btn-open:hover {
+        opacity: .8;
+    }
+    .offer__filter-btn-open:hover span::before{
+        width: 100%;
+    }
+    .offer__filter-accordion-body-item:hover .offer-filter-name {
+        &::before{
+            height: calc(100% - 2px);
+            opacity: .5;
+        }
+    }
+    .offer__filter-accordion-body-item:hover .offer__filter-accordion-body-item {
+        opacity: .8;
+        padding-left: 1px;
+    }
+    .filter-position-performance__btn:hover,
+    .filter-position-performance__btn.dis:hover {
+        opacity: 1;
+    }
+    .pagination__btn-number{
+        &:hover {
+            background-color: var(--colorLight);
+            color: white;
+        }
+    }
+    .pagination__btn-next{
+        &:hover {
+            opacity: .8;
+        }
+    }
+    .card.line .card__link{
+        &:hover {
+            opacity: 1;
+            &::before{
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+    .card.line .card__favotites:hover {
+        background-color: var(--colorLight);
+        svg path {
+            stroke:#fff;
+        }
+    }
+    .news__item-link:hover {
+        &::before{
+            width: 100%;
+        }
+        opacity: .5;
+    }
+    .card__price-mor{
+        &:hover {
+            opacity: .7;
+            &::before{
+                width: 100%;
+            }
+        }
+    }
+    .card-top__info-box-bottom a:hover {
+        opacity: .7;
+    }
+    .card-top__info-box-top button:hover {
+        svg {
+            fill: var(--colorLight);
+        }
+        circle {
+            fill: var(--colorLight);
+            
+        }
+        path {
+            stroke: #fff;
+        }
+    }
+    .card-info-list__item-one.price-bottom a:hover::before{
+        width: 100%;
+    }
+    .btn-middle-btoder:hover {
+        color: #EFF3FA;
+        background-color: #A9B4CD;
+    }
+    .card-info-accordion-item__btn:hover {
+        background-color: var(--colorLight);
+
+        svg>path {
+            stroke: #fff;
+            fill: #fff;
+        }
+    }
+    .favorites__link:hover,
+    .time__link:hover {
+        svg {
+            path {
+                stroke: var(--colorLight);
+                fill: var(--colorLight);
+            }
+        }
+    }
+    li.montrage-top-banner__box-links:hover{
+        background-color: rgba(65, 105, 224, 1);
+    }
+    .montrage-accordion__item-btn:hover {
+        background-color: var(--colorLight);
+
+        svg path {
+            fill: #fff;
+        }
+    }
+    .header__calculate:hover,
+    .header__phone:hover {
+        opacity: .7;
+    }
+    .header__search.hidden:hover {
+        svg path,
+        svg circle {
+            stroke: var(--colorLight);
+        }
+    }
+    .header__button-burger:hover {
+        opacity: .8;
+    }
+    .header__dropdown-menu-close:hover {
+        opacity: .8;
+    }
+    .header__dropdown-menu-link:hover {
+        opacity: .8;
+    }
+    .btn-tab{
+        &:hover {
+            background-color: var(--colorLight);
+            opacity: .8;
+            color: white;
+        }
+    }
+    .banner-top-two__form-links{
+        a:hover {
+            span {
+                &::before{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .banerMortgage__item{
+        a:hover {
+            opacity: .8;
+        }
+    }
+    .offer__filter-item:hover {
+
+        border-color: #4169E0;
+    }
+    .about-two__links-phone:hover a{
+        opacity: .8;
+    }
+    .about-two__links-media:hover p {
+        opacity: .8;
+    }
+    .footer__list-connection a:hover {
+        opacity: .8;
+    }
+    .mortgage__form-buttons button:hover {
+        background-color: var(--colorLight);
+        color: white;
+    }
+    .bannerSlider__arrows .swiper-button-prev:hover,
+    .bannerSlider__arrows .swiper-button-next:hover{
+        background: #fff;
+        svg path {
+            stroke: rgba(25, 34, 82, 1);
+        }
+    }
+    .ui__input_hidden:focus{
+        border: 1px solid var(--colorLight);
+    }
+    .ui__input-name:focus{
+        border: none !important;
+    }
+    .mortgage__form-count:focus{
+        border: none !important;
+    }
+    .menu__item_level:hover {
+        background: var(--colorActiveMeny);
+    }
+    .menu__item_second:hover {
+        background-color: #eaf1ff;
+        &::before{
+            height: 100%;
+        }
+    }
+    .menu__item_second:hover ul {
+        transform: rotateX(0deg);
+    }
+    .about-page__slide:hover picture img {
+        filter: blur(1px) grayscale(.4);
+    }
+    .about-page__slide:hover .about-page__slide-decor{
+        transform: translate(-50%,-50%) rotateX(0deg);
+    }
+}

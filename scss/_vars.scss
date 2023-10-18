@@ -1,0 +1,35 @@
+:root {
+    --Inter:  'Inter';
+    --Urbanist: 'Urbanist';
+    --colorDarkTwo: #192252;
+    --colorDark: #0C1A30;
+    --colorMiddle: #192252;
+    --colorLightTwo:#848FAC;
+    --colorLightThree: #DFE8F6;
+    --colorLight: #4169E0;
+    --colorGray: #F9F9F9;
+    --colorWhite: #fff;
+    --colorError: #E35D75;
+    --colorGreen: #49CF9F;
+    --coloLightBlue: #E0F2FF;
+    --colorBtnFormMin: #DBE8FD;
+    --colorRudius: #CECECE;
+    --colorActiveMeny: rgba(224, 242, 255, 1);
+    --border-rudius-btn: 6px;
+    --border-rudius-card: 16px;
+    --border-rudius: 25px;
+    --border-rudius-ui: 5px;
+}
+
+@mixin flex($fl, $al-item, $js-con) {
+    display: flex;
+    flex-direction: $fl;
+    align-items: $al-item;
+    justify-content: $js-con;
+}
+
+@mixin grid($col, $row) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}

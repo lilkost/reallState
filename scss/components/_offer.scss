@@ -1,0 +1,516 @@
+.offer{
+  padding-top: 47px;
+  padding-bottom: 41px;
+  &__title {
+    padding-bottom: 29px;
+  }
+
+  &__filter{
+    @include flex(row,center, space-between);
+    &-region{
+      gap: 10px;
+      @include flex(row,center, flex-start);
+    }
+    &-btn {
+      @extend .btn-filter-reg;
+      margin-left: 0;
+      max-width: max-content;
+      width: 100%;
+      margin-right: auto;
+      color: var(--colorLightTwo);
+      transition: all .3s ease;
+    }
+    &.pb {
+      padding-bottom: 35.83px;
+    }
+    padding-bottom: 19.83px;
+
+  }
+  &__filter-popularity{
+    cursor: pointer;
+
+    border-radius: 8px;
+    min-width: 183px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    position: relative;
+    @include flex(column, flex-start, flex-start);
+    font-family: var(--Inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14rem;
+    line-height: 140%;
+    color: var(--colorDark);
+    display: inline-block;
+    select {
+      padding: 10px 10px 10px 14px;
+      background: none;
+      max-width: 100%;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    option,select {
+      font-family: var(--Inter);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 140%;
+      color: var(--colorDark);
+    }
+    fieldset{
+      padding: 0;
+      margin: 0;
+      border: none;
+    }
+    .offer__filter-accordion-top {
+      padding: 10px 14px;
+      background: inherit;
+      p{
+        font-size: 14px;
+        line-height: 140%;
+      }
+    }
+  }
+  &__filter-pos{
+    padding: 12px;
+    border: 1px solid var(--colorLightThree);
+    border-radius: 8px;
+    margin-left: 11px;
+    transition: all .3s ease-in-out;
+
+    svg path {transition: all .3s ease-in-out;}
+  }
+
+  &__btn-all{
+    padding: 13px 0;
+    max-width: 196px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cards__list{
+    padding-bottom: 49.78px;
+  }
+
+  &__filter-popularity--btn {
+    position: absolute;
+    top: 11px;
+    right: 9px;
+  }
+
+
+  &__filter-accordion{
+    cursor: pointer;
+    position: relative;
+    &-top {
+      padding: 16px 25px 12px 18px;
+      @include flex(row, center,space-between);
+
+      svg {
+        transition: all .3s ease;
+      }
+
+      &.active {
+        svg {
+          transform: rotate(180deg);
+          transform-origin: center;
+        }
+      }
+    }
+    &-body {
+      transform-origin: 0 0;
+      transform: rotateX(-90deg);
+      position: absolute;
+      max-width: 100%;
+      width: 100%;
+      transition: all .3s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+      top: calc(100% + 5px);
+      z-index: 10;
+      &.active {
+        transform: rotateX(0);
+        opacity: 1;
+        visibility: inherit;
+      }
+      &-item {
+        position: relative;
+        cursor: pointer;
+        input {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          opacity: 0;
+          &:checked ~ .offer-filter-name {
+            &::before{
+              height: calc(100% - 2px);
+            }
+          }
+        }
+        .col {
+          flex-direction: column;
+          display: flex;
+        }
+        border-bottom: 1px solid #EFF3FA;
+      }
+
+      .offer-filter-name{
+        position: relative;
+        padding: 11px 0;
+        display: inline-block;
+        &::before{
+          content: '';
+          position: absolute;
+          top: 0%;
+          left: -13px;
+          height: 0;
+          width: 2px;
+          background: #192252;
+          transition: all .3s ease-in;
+        }
+      }
+    }
+  }
+  &__filter-big{
+    font-family: var(--Inter);
+    @include grid(repeat(4,1fr), auto);
+    grid-gap: 22px 23px;
+    position: relative;
+
+    //
+  }
+  &__filter-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--colorDark);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  &__filter-elem{
+    @include flex(row,center, flex-start);
+    .input-filter-text{
+      width: 100%;
+    }
+  }
+  &__filter-elem{
+    .offer__filter-item{
+      padding: 16px 0;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      transition: all .3s ease-in-out;
+      input[type=checkbox],
+      input[type=radio]  {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        opacity: 0;
+
+        &:checked ~ .offer-filter-name {
+          color: white;
+        }
+      }
+    }
+    &.gapRaight{
+      .offer__filter-item:first-child{
+        margin-right: 2.5px;
+        padding-inline: 12px;
+      }
+      .offer__filter-item:not(:first-child) {
+        margin-right: 7.5px;
+        padding-inline: 18px;
+      }
+      .offer__filter-item:last-child{
+        margin-right: 0;
+      }
+    }
+    &.flex-gap{
+      gap: 10px;
+    }
+    &.ali-end{
+      align-items: flex-end;
+      height: 100%;
+      justify-self: flex-end;
+    }
+    &.input-chekeds{
+      position: relative;
+      top: -12px;
+    }
+  }
+  &__filter-item:has(input[type=radio]:checked) {
+    background-color: var(--colorLight);
+    border-color: var(--colorLight);
+  }
+  &__filter-button,
+  &__filter-button{
+    padding: 14px 0;
+    width: 100%;
+  }
+
+  &__filter-elem-cheked{
+    @include flex(row, flex-end,flex-end);
+    gap: 6px;
+    cursor: pointer;
+    input[type=checkbox]{
+      width: 0;
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+      &:checked ~ span{
+        background-color: var(--colorLight);
+
+        &::before{
+          opacity: 1;
+        }
+      }
+    }
+    span{
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+      border: 1px solid var(--colorLight);
+      transition: all .3s ease-in-out;
+      position: relative;
+
+      &::before{
+        content: '';
+        position: absolute;
+        width: 9.5px;
+        height: 7px;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        transition: all .4s ease-in-out;
+        transform: translate(-50%, -50%);
+        background: url(../images/decor/galka.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14rem;
+      color: var(--colorDark);
+    }
+  }
+  &__filter-btn-open{
+    transition: all .3s ease;
+
+    gap: 8px;
+    span{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15rem;
+      line-height: 22px;
+      color: var(--colorLight);
+      display: inline-block;
+      position: relative;
+      margin-inline: 8px;
+      &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 0;
+        height: 1.4px;
+        background-color: var(--colorLight);
+        transition: all .3s ease;
+      }
+    }
+    svg {
+      transition: all .3s ease-in-out;
+      transform-origin: center;
+    }
+    &.active {
+      svg.filArrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &__filter-elem--dis-none{
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    display: none;
+    transition: all .3s ease;
+  }
+  &__filter-big{
+    padding-bottom: 42px;
+    &.active {
+      position: relative;
+      padding-bottom: 82px;
+      margin-bottom: 53px;
+      .offer__filter-elem--dis-none{
+        height: max-content;
+        opacity: 1;
+        height: max-content;
+        visibility:inherit;
+        display: block;
+      }
+      .offer__filter-elem-buttons{
+        position: absolute;
+        bottom: 0;
+        max-width: 100%;
+        width: 100%;
+        max-width: 306px;
+        width: 100%;
+        right: 0;
+      }
+      .button-open-filter{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 13px;
+        right: calc(306px + 24px)
+      }
+      .input-chekeds{
+        position: absolute;
+        top: 190px;
+      }
+      fieldset:nth-child(5) {
+        padding-bottom: 32px;
+      }
+
+      // animation
+
+      animation-name: filterPreloader;
+      animation-duration: 2s;
+
+    }
+
+  }
+  &__inner {
+    position: relative;
+    &::before{
+      content: '';
+      width: 50rem;
+      height: 50rem;
+      position: absolute;
+      border-radius: 50px;
+      top: 16%;
+      left: 50%;
+      border: 10rem solid #fff;
+      box-shadow: 0px 0px 3px 1px var(--colorLight);
+      transform: translate(-50%, -50%);
+      border-top-color: var(--colorLight);
+      opacity: 0;
+      z-index: 100;
+    }
+    &.active{
+      &::before{
+        opacity: 1;
+        animation-name: filterPreloaderCircle;
+        animation-duration: 1s;
+        animation-fill-mode:forwards;
+      }
+    }
+
+  }
+}
+.offer__filter-item.border-input-filter.active {
+  background-color: var(--colorLight);
+}
+.offer__filter-accordion-body .col {
+  display: flex;
+  flex-direction: column;
+}
+.offer__filter.reverse {
+  .offer__filter-popularity{
+    margin: 0;
+  }
+  padding-bottom: 30px;
+}
+.offer__filter {
+  .offer__filter-accordion-body.acordion-body {
+    width: 326px;
+    max-width: 326px;
+    right: 0;
+  }
+  &.reverse{
+    .offer__filter-accordion-body.acordion-body {
+      left: 0;
+    }
+  }
+  &.--pb{
+    padding-bottom: 16.83px;
+  }
+}
+.offer__filter.reverse.pb {
+  padding-bottom: 32px;
+}
+.similar-offer{
+  &-slider {
+    padding-bottom: 58.78px;
+  }
+  &__top{
+    @include flex(row,center,space-between);
+    .similar-offer-button-prev,
+    .similar-offer-button-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      border: 1px solid var(--colorDarkTwo);
+      @include flex(column,center,center);
+    }
+    h2 {
+      letter-spacing: -0.005em;
+    }
+    padding-bottom: 45.83px;
+  }
+  &__arrows{
+    @include flex(row,center,flex-end);
+    gap: 8px;
+    position: relative;
+    top: 4px;
+    right: 3px;
+  }
+  &__slider {
+    overflow: hidden;
+  }
+}
+.listInnerFilter{
+  filter: blur(0px);
+  transition: all .3s ease;
+  &.animate{
+    animation-name: listInnerFilterAnimate;
+    animation-duration: .4s;
+  }
+}
+@keyframes filterPreloader {
+  0% {
+    opacity: 0;
+    filter: blur(10px)
+  }
+  50%{
+    opacity: 1;
+    filter: blur(5px)
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+@keyframes filterPreloaderCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+    opacity: 0.5;
+
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}

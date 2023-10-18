@@ -1,0 +1,302 @@
+.header {
+  padding: 24px 0px 13px 0;
+  &__inner {
+    @include flex(row, center, space-between);
+  }
+  &__search {
+    max-width: 265px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--colorGray);
+    margin: 0 0 0 auto;
+    padding: 12.55px 18.55px 11px 22.55px;
+    @include flex(row, center, center);
+    gap: 18.25px;
+    transition: all .3s ease;
+    input,
+    input::placeholder {
+      font-family: var(--Inter);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 140%;
+      color: var(--colorDark);
+      opacity: .5;
+      background: none;
+    }
+    input {
+      &::-webkit-search-decoration,
+      &::-webkit-search-cancel-button,
+      &::-webkit-search-results-button,
+      &::-webkit-search-results-decoration { display: none; }
+      opacity: 1;
+      transition: all .3s ease;
+    }
+    &.hidden {
+      background: #fff;
+      max-width: max-content;
+      gap: 0;
+      padding: 0;
+      input{
+        width:0;
+      }
+    }
+    &.active {
+      max-width: 266px;
+      width: 100%;
+      border-radius: 12px;
+      background-color: var(--colorGray);
+      padding: 12.55px 18.55px 11px 18.55px;
+      gap: 18.25px;
+
+      input {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  &__buttons-additionally{
+    margin-left: 10.15px;
+    @include flex(row, center, center);
+    gap: 14.29px;
+  }
+
+  &.borderHeader{
+    border-bottom: 1px solid #CECECE;
+  }
+  &__phone{
+    font-family: var(--Inter);
+    font-weight: 700;
+    font-size: 18rem;
+    line-height: 23.4px;
+    color: var(--colorLight);
+    transition: all .3s ease-in-out;
+
+  }
+  &__calculate{
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 22px;
+    letter-spacing: 1%;
+    color: var(--colorDarkTwo);
+    @include flex(row,center,flex-start);
+    gap: 8.5px;
+    transition: all .3s ease-in-out;
+  }
+  &__button-burger{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: var(--colorLight);
+    @include flex(column,center,center);
+    transition: all .3s ease-in-out;
+    flex-shrink: 0;
+    position: relative;
+    span {
+      width: 18px;
+      height: 2px;
+      border-radius: 50px;
+      background-color: #fff;
+      display: block;
+      position: relative;
+      &::before,
+      &::after{
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        border-radius: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+        transition: all .3s ease;
+
+      }
+      &::before{
+        top: -5px;
+      }
+      &::after{
+        bottom: -5px;
+      }
+      transition: all .3s ease;
+    }
+
+    &.active {
+      span {
+        background-color: var(--colorLight);
+
+        &::before{
+          transform:translateX(-50%) rotate(45deg);
+          top: 0;
+        }
+        &::after{
+          transform:translateX(-50%) rotate(-45deg);
+          bottom: 0;
+        }
+      }
+    }
+  }
+  &.style-two{
+    padding: 11px 0px 20px 0;
+    .header__buttons-additionally{
+      margin-left: 16px;
+      margin-right: 22.15px;
+    }
+    .header__search.hidden {
+      margin: 0;
+    }
+    .header__phone{
+      margin-right: 31px;
+      margin-left: 0;
+    }
+    .header__calculate{
+      margin-right: 57px;
+      margin-left: auto;
+    }
+  }
+  &__dropdown-menu{
+    z-index: 2;
+    background-color: #fff;
+    top: 0;
+    right: -100vw;
+    position: fixed;
+    height: 100vh;
+    font-family: var(--Inter);
+    padding-top: 26px;
+    padding-left: 24px;
+    min-width: 853px;
+    border-radius: 0px 0px 0px 20px;
+    transition: all .3s ease-in-out;
+
+    &.active {
+      right: 0;
+    }
+    .header__search{
+      margin: 0 21.34px 0 0;
+    }
+    &-body{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &-top {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding-bottom: 33px;
+    }
+    &-link{
+      font-weight: 400;
+      font-size: 14rem;
+      line-height: 19.6px;
+      color: var(--colorDarkTwo);
+      @include flex(row,center,flex-start);
+      transition: all .3s ease;
+      &.mail {
+        gap: 13.34px;
+        margin-right: 25.5px;
+      }
+      &.phone {
+        gap: 8.52px;
+        margin-right: 37px;
+      }
+    }
+    &-close{
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      background-color: var(--colorLight);
+      @include flex(column,center,center);
+      transition: all .3s ease-in-out;
+      flex-shrink: 0;
+    }
+    &-list.header__dropdown-menu-list--strong{
+      margin-right: 118px;
+      strong {
+        font-weight: 600;
+        font-size: 16rem;
+        line-height: 38.4px;
+        color: var(--colorDark);
+      }
+      padding-left: 52px;
+      li:has(strong) {
+        margin-bottom: 0;
+      }
+      li:not(:last-child) {
+        padding-bottom: 0;
+      }
+    }
+    &-list {
+      strong {
+        font-weight: 600;
+        font-size: 16rem;
+        line-height: 38.4px;
+        color: var(--colorDark);
+      }
+      li:has(strong) {
+        margin-bottom: 10px;
+      }
+      li:not(:last-child) {
+        margin-bottom: 12px;
+      }
+      a {
+        font-weight: 400;
+        font-size: 14rem;
+        line-height: 20px;
+        color: var(--colorDark);
+        opacity: .8;
+
+        &:has(strong) {
+          opacity: 1;
+        }
+      }
+      &.--mar-right{
+        margin-right: 85px;
+      }
+    }
+  }
+  &__anim {
+    transition: all .3s ease;
+
+    &.ops {
+      opacity: 0;
+    }
+  }
+}
+.menu {
+  &__list{@include flex(row,center,center);margin: 0 auto 0 127px; gap: 0;}
+  &__list li:first-child {
+    margin-right: 30px
+  }
+  &__list li:nth-child(2) {
+    margin-right: 37px
+  }
+  &__list li:nth-child(3) {
+    margin-right: 37px
+  }
+  &__list li:nth-child(4) {
+    margin-right: 44px
+  }
+  &__list li:nth-child(5) {
+    margin-right: 40px
+  }
+  &__link{
+    @extend .link-header;
+
+    @extend .svg-duration;
+    transition: all .3s ease-in-out;
+    &.menu__link--hoverd{
+      @include flex(row, center, center);
+      gap: 6px;
+    }
+  }
+}
+.favorites__link,
+.time__link {
+  svg {
+    @extend .svg-duration;
+  }
+}

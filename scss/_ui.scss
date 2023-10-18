@@ -1,0 +1,238 @@
+.ui{
+  // контейнер для пред-показа
+  &__box {
+    &_flex{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
+      width: 100%;
+      grid-gap: 20px;
+      margin-inline: auto;
+      padding-block: 50px 100px;
+    }
+  }
+  // основной лайбел
+  &__label {
+    font-family: var(--Inter);
+    max-width: 100%;
+    width: 100%;
+
+    // col 3
+    &.ui__label_col-three{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-column-gap: 16px;
+    }
+    // col 2
+    &.ui__label_col-two{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-column-gap: 16px;
+    }
+  }
+  // заголовок над инпутом
+  &__title {
+    font-size: 14rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--colorDark);
+    // margin-bottom 10px
+    &.ui__title_mb-xxl{
+      margin-bottom: 10px;
+    }
+    // margin-bottom 5px
+    &.ui__title_mb-xl{
+      margin-bottom: 5px;
+    }
+    // margin-bottom 2px
+    &.ui__title_mb-sm{
+      margin-bottom: 2px;
+    }
+  }
+  // input для ввода
+  &__input {
+    padding: 12.5px 20px;
+    border: 1px solid var(--colorRudius);
+    font-size: 12rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    color: var(--colorDark);
+    border-radius: var(--border-rudius-ui);
+    max-width: 100%;
+    width: 100%;
+    &-name{
+      width: 100%;
+      max-width: 100%;
+      padding-right: 20px;
+      &::placeholder{
+        color: var(--colorDark);
+      }
+    }
+    &::placeholder{
+      color: var(--colorDark);
+    }
+    // placeholder серый
+    &.ui__input_hidden{
+      transition: all .3s ease;
+      &::placeholder{
+        color: var(--colorRudius);
+      }
+    }
+    // focus input's
+    &.ui__input_focus{
+      border: 1px solid var(--colorLight);
+    }
+    // padding для инпутов в строку
+    &.ui__input_p_xl{
+      padding: 16px 20px;
+    }
+    // text-aling center
+    &.ui__input_center{
+      text-align: center;
+    }
+
+  }
+  // под заголовок
+  &__subtitle{
+    font-size: 12rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    color: #707070;
+
+    // margin-bottom 10px
+    &.ui__subtitle_mb-xxl{
+      margin-bottom: 10px;
+    }
+  }
+
+  //accordion
+  &__accordion{
+    font-family: var(--Inter);
+    max-width: 100%;
+    width: 100%;
+
+    .offer__filter-accordion-top{
+      padding: 12.5px 18px;
+    }
+  }
+
+  // custom radio
+  &__box-radio{
+    padding: 13px 20px;
+    border: 1px solid var(--colorRudius);
+    border-radius: var(--border-rudius-ui);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    input[type=radio]:checked ~ .ui__decor_circle {
+      border: 6px solid var(--colorLight);
+    }
+    input[type=radio]{
+      position: absolute;
+      opacity: 0 ;
+    }
+    &:has(input[type=radio]:checked){
+      border-color: var(--colorLight);
+    }
+
+    input[type=date] {
+      width: 100%;
+      max-width: 90%;
+      position: absolute;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+      font-size: 400px;
+    }
+  }
+
+  // имена кастомных селектов, радио и т.д
+  &__name {
+    font-size: 14rem;
+    font-style: normal;
+    line-height: 140%;
+    color: var(--colorDarkTwo);
+    letter-spacing: 0.14px;
+  }
+
+  // radio decor
+  &__decor{
+
+
+    &.ui__decor_circle{
+      transition: all .2s linear;
+      width: 24px;
+      height: 24px;
+      display: block;
+      flex-shrink: 0;
+      border: 1px solid rgba(231, 231, 231, 1);
+      border-radius: 50px;
+    }
+    &.ui__decor_txt{
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+      color: var(--colorDark);
+    }
+  }
+  // input для загрузки файлов
+  &__file-download{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    border: 1px solid var(--colorRudius);
+    border-radius: var(--border-rudius-ui);
+    position: relative;
+    cursor: pointer;
+    background: url("../images/camera.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    input[type=file] {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      font-size: 0px;
+      opacity: 0;
+      cursor: pointer;
+    }
+  }
+
+  // decor image
+
+  &__decor-img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    object-fit: cover;
+  }
+  // box top accordion in image
+  &__accordion-box{
+    display: flex;
+    flex-display: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    .ui__accordion-name{
+      font-family: var(--Inter);
+      color: var(--colorDark);
+      font-size: 14rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+    }
+  }
+}

@@ -1,0 +1,2264 @@
+@media (max-width: 1440px) {
+    .banner-info.banner-info-style .banner-info__inner{
+        background-size: cover;
+    }
+    .banner-info.banner-info-style .banner-info__content{
+        padding-left: 0px;
+    }
+    .banner-info.banner-info-style .banner-info__container picture{
+        display: block;
+        max-width: 50%;
+        width: 100%;
+        img {
+            object-fit: cover;
+        }
+    }
+    .banner-info.banner-info-style .banner-info__container{
+        max-width: 1296px;
+        width: 100%;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-info{
+        grid-template-columns: 800px 1fr;
+    }
+    .card-info-sliders{
+        grid-template-columns: 574px 186px;
+    }
+    .banner-min.--mb {
+        padding-right: 0px;
+    }
+    .banner-three__box h3{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .menu__list .menu__item:first-child,
+    .menu__list .menu__item:nth-child(2),
+    .menu__list .menu__item:nth-child(3),
+    .menu__list .menu__item:nth-child(4),
+    .menu__list .menu__item:nth-child(5){
+        margin-right: 0;
+    }
+    .menu__list{
+        margin: 0 auto;
+        gap: 20px;;
+    }
+    .bannerSlider__slide-title{
+        font-size: 39rem;
+        max-width: 60%;
+        width: 100%;
+        line-height: 120%;
+    }
+    .mortgage__form-application{
+        position: static;
+    }
+    .mortgage__form-application,
+    .footer__list ul:nth-child(2),
+    .footer__txt{
+            margin-right: 0px;
+    }
+    .footer__txt{
+        margin-left: 0;
+    }
+    .footer__list{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .offer__filter-big{
+        gap: 15px;
+    }
+    .banner-info.banner-info-style .banner-info__container{
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .about-two__inner{
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 15px;
+    }
+    .about-two__txt br {
+        display: none;
+    }
+    .slider-big .swiper-button-next{
+        right: 10px;
+    }
+    .slider-big .swiper-button-prev{
+        left: 10px;
+    }
+    .about-three {
+        padding-right: 15px;
+    }
+    .about-three__picture {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        img{
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .about-three__box{
+        padding-left: 0px;
+    }
+    .about-three__box p br {
+        display: none;
+    }
+    .banner-info.banner-info--banerMortgage-two h2{
+        font-size: 30rem;
+    }
+    .banner-info.banner-info--banerMortgage-two .banner-info__box{
+        padding-right: 15px;
+        left: 0;
+    }
+    .banner-info.banner-info--banerMortgage-two p{
+        padding-bottom: 25px;
+    }
+    .bannerTwo.pb .container{
+        padding: 0;
+    }
+    .montrage-accordion__item{
+        padding-inline: 0px;
+        padding-block: 30px;
+    }
+    .montrage-accordion__item-title{
+        margin-left: 0;
+    }
+    .montrage-accordion__item-top{
+        gap: 30px;
+    }
+    .montrage-accordion__item-body{
+        padding-left: 90px;
+    }
+    .montrage-accordion__item-btn{
+        flex-shrink: 0;
+    }
+    .footer__txt.footer__txt_style_three{
+        text-align: center;
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner-info__inner,
+    .banerMortgage__inner{
+        background-size: cover;
+        padding-top: 10px;
+    }
+    .banerMortgage__list{
+        grid-template-columns: repeat(2,250px);
+    }
+    .footer__list ul:first-child{
+        margin-right: 0;
+    }
+    .offer__filter-big {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .offer__filter-button, .offer__filter-button{
+        margin-bottom: 0px;
+    }
+    .banner-info.banner-info--banerMortgage-two picture{
+        max-width: 55%;
+        width: 100%;
+        display: block;
+        left: 0;
+        img{
+            object-fit: cover;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+        }
+    }
+    .about-three__list{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .banner-info.banner-info--banerMortgage-two{
+        justify-content: flex-start;
+    }
+    .banner-info.banner-info--banerMortgage-two .banner-info__box{
+        margin-bottom: 30px;
+    }
+    .bannerTwo h2{
+        font-size: 35rem;
+        padding-bottom: 15px;
+    }
+    .card.line{
+        grid-template-columns: 386px 334px 191px;
+        grid-column-gap: 15px;
+    }
+    .card-line-sliders{
+        gap: 10px;
+    }
+    ._main-title-big{
+        font-size: 30rem;
+        line-height: 33.8px;
+    }
+    .card-top ._main-title-big {
+        max-width: 568px;
+        width: 100%;
+    }
+    .card-top__info-box-top{
+        gap: 10px;
+    }
+    .card-top__info-box-top button{
+        top: 0;
+    }
+    .card-top__info-box-bottom{
+        gap: 25px;
+    }
+    .card-info-list__item-one.buttons{
+        flex-wrap: wrap;
+    }
+    .card-info-list__item-one.buttons button, .card-info-list__item-one.buttons a{
+        flex: 0 0 100%;
+    }
+    .card-info-list__item-one.price-bottom,
+    .card-info-list__item-one.price-top{
+        flex-wrap: wrap;
+    }
+    .card-info-sliders{
+        grid-template-columns: 536px 194px;
+    }
+    .card-info{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-info-sliders-box{
+        padding: 10px 10px 30px 10px;
+    }
+    .card-info-list{
+        padding: 30px 15px 30px;
+    }
+    .card-info-accordion-item__btn{
+        width: 45px;
+        height: 45px;
+        top: 20px;
+        right: 20px;
+    }
+    .card-info-accordion-item {
+        padding: 30px;
+    } 
+    .card-info-accordion-item__body-text p{
+        padding-right: 0px;
+    }
+    .banner-three__box{
+        padding-left: 30px;
+    }
+    .banner-three__box h3{
+        font-size: 30rem;
+    }
+    .banner-three{
+        gap: 10px;
+    }
+    .banner-three picture{
+        max-width: 100%;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .card-characteristics__box.card-characteristics__box-text,
+    .card-characteristics__box.card-characteristics__box-list{
+        padding: 20px;
+    }
+    .card-characteristics__box.card-characteristics__box-text p br{
+        display: none;
+    }
+    .card-characteristics p:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .montrage-top-banner picture{
+        max-width: 50%;
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0px 15px 15px 0px;
+        }
+    }
+    .montrage-top-banner__box-title {
+        max-width: 47%;
+        width: 100%;
+    }
+    .montrage-top-banner__box-text{
+        max-width: 47%;
+        width: 100%;
+    }
+    .montrage-accordion__item-number{
+        font-size: 35rem;
+        line-height: 39.5px;
+    }
+    .mortgage__form-price{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .montrage-accordion__item-title{
+        line-height: 26.6px;
+    }
+    ._main-title-xxl,
+    .banner-info h2._main-title-xxl{
+        font-size: 30rem;
+        line-height: 31px;
+    }
+    .banner-info.banner-info--two p{
+        font-size: 18rem;
+        line-height: 125%;
+    }
+    .banner-info__content-six .banner-info__content-box{
+        max-width: 550px;
+        width: 100%;
+    }
+    .banner-info.banner-info--six{
+        background-size: cover;
+    }
+    .banner-info__content-six form {
+        padding: 7.98px 9.03px 7.64px 19.15px;
+    }
+    .banner-info__content-six h2{
+        font-size: 30rem;
+        margin-bottom: 15px;
+        line-height: 33px;
+    }
+    .banner-info__content-six p{
+        margin-bottom: 30px;
+    }
+    .banner-info__content-six .banner-info__content-box{
+        margin-right: 40px;
+        margin-bottom: 44px;
+    }
+    .banner-info__content-seven h2{
+        font-size: 30rem;
+        margin-bottom: 15px;
+        line-height: 33px;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box h2{
+        font-size: 30rem;
+        margin-bottom: 15px;
+        line-height: 33px;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box{
+        margin-bottom: 44px;
+    }
+    .banner-info.banner-info--eight{
+        padding-right: 30px;
+        padding-left: 0;
+    }
+    .banner-info__content-eight{
+        justify-content: space-between;
+    }
+    .banner-top-two__form .banner-top-two__form-item-accordion:not(:first-child) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-top-two__form .banner-top-two__form-item-accordion:first-child{
+        padding-right: 20px;
+    }
+    .banner-top-two__box{
+        padding-left: 40px;
+    }
+    .banner-top-two__form-item-map{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mortgage__form-label-tel input[type=tel]{
+        max-width: 130px;
+        width: 100%;
+    }
+    .card-line-sliders{
+        grid-template-columns: 245px 64px;
+    }
+    .card.line{
+        grid-template-columns: 319px 334px 191px;
+        grid-column-gap: 20px;
+    }
+    .banner-three::before{
+        display: none;
+    }
+    .banner-three {
+        grid-template-columns:repeat(2,1fr);
+
+        picture img {
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+    .banerOne picture img {
+        border-radius:0 25px  25px 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .banerOne picture{
+        max-width: 50%;
+    }
+    .banner-info.banner-info--one .banner-info__content{
+        padding-left: 40px;
+        overflow: hidden;
+    }
+    .banner-info.banner-info--one .banner-info__inner picture{
+        max-width: 50%;
+        width: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-bottom-right-radius: 25px;
+        img {
+            object-fit: cover;
+        }
+    }
+    .banner-info__content{
+        max-width: 50%;
+        width: 100%;
+    }
+    .about--one .about__inner{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+   .about--one  .about__inner picture {
+        max-width: 100%;
+        width: 100%;
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .banerMortgage__content{
+        padding-left: 40px;
+    }
+    .mortgage__box{
+        grid-template-columns: 350px 1fr;
+    }
+    .mortgage__form{
+        padding-bottom: 30px ;
+    }
+    .banner-info.banner-info-style .banner-info__container{
+        padding: 0;
+    }
+    .slider-big__slide{
+        padding-left: 60px;
+    }
+    .card-info-sliders{
+        grid-template-columns: 440px 190px; 
+    }
+    .card-info{
+        grid-column-gap: 10px;
+    }
+    .banner-three::before{
+        right: 50%;
+    }
+    .banner-info.banner-info--two .banner-info__content{
+        padding-left: 40px;
+        padding-bottom: 44px;   
+    }
+    .banner-info__content-three{
+        padding-left: 40px;
+        padding-bottom: 44px;
+    }
+    .banner-info__content-three form{
+        max-width: 440px;
+    }
+    .banner-info__content-six .banner-info__content-box {
+        max-width: 480px;
+        width: 100%;
+    }
+    .banner-info__content-six picture {
+        max-width: 35%;
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        img {
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .banner-top-two__title{
+        font-size: 35rem;
+        line-height: 43.4px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .card-top{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .card-top ._main-title-big{
+        max-width: 100%;
+        width: 100%;
+
+        br {
+            display: none;
+        }
+    }
+    .card-top__info-box-bottom{
+        justify-content: flex-start;
+    }
+    .card-top__info,
+    .card-top__info-box-bottom{
+        align-items: flex-start;
+        justify-content: flex-start;        
+    }
+    .card-top__info-box-top,
+    .card-top__info-box-bottom{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1070px) {
+    .card.line{
+        grid-template-columns: 319px 295px 191px;
+    }
+    .card__advantages-item:first-child,
+    .card__advantages-item:nth-child(2){
+        margin-right: 0;
+    }
+    .card.line .card__advantages{
+        gap: 15px;
+    }
+    .card__advantages{
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1044px) {
+    .header__search,
+    .header__buttons-additionally,
+    .menu__list{
+        display: none;;
+    }
+    .header__button-burger.burger__mob{
+        display: flex;
+    }
+    .header__search.active {
+        display: flex;
+    }
+    .cards__list.col-three{
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+        grid-gap: 15px;
+    }
+
+    .banerMortgage__inner picture{
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .banerMortgage__content{
+        padding-bottom: 0px;
+    }
+    .banerMortgage__list{
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        padding-bottom: 30px;
+    }
+    .banner-info__inner, .banerMortgage__inner{
+        padding-top: 30px;
+    }
+    .mortgage__box{
+        grid-column-gap: 15px;
+    }
+    .mortgage__form-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mortgage__form-application{
+        max-width: 100%;
+        width: 100%;
+    }
+    .about-three{
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .montrage-top-banner__box{
+        padding-top: 0;
+        padding-left: 0px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .montrage-top-banner__box-title{
+        padding-bottom: 15px;
+    }
+    .montrage-top-banner__box-text{
+        padding-bottom: 50px;
+    }
+    .montrage-top-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .montrage-top-banner__box-list{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .mortgage__buttons {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1010px) {
+    .mortgage__form-box{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .bannerSlider__slide-title{
+        margin-bottom: 30px;
+    }
+    .bannerSlider__slide{
+        padding-inline: 30px;
+    }
+    .bannerSlider__arrows{
+        bottom: 40px;
+    }
+    .bannerSlider__dots {
+        display: block;
+    }
+    .bannerSlider__arrows {
+        .bannerSlider__dots{
+            display: block;
+        }
+        .swiper-pagination {
+            display: none;
+        }
+    }
+    .bannerSlider__arrows {
+        bottom: .5px;
+        right: .5px;
+        padding: 20px;
+        border-bottom-right-radius: var(--border-rudius);
+        border-top-left-radius: var(--border-rudius);
+        border: 1px solid #fff;
+        background: rgba(255, 255, 255, 0.192);
+        backdrop-filter: blur(2px);
+    }
+    .bannerSlider__slide-title{
+        max-width: calc(85% - 50px);
+        width: 100%;
+    }
+    .bannerSlider__slide{
+        min-height: 450px;
+    }
+    .banner-info.banner-info--one.banner-info-style {
+        picture{
+            display: none;
+        }
+        .banner-info__content{
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            padding-bottom: 30px;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .about-two__box picture.about-two__picture-hei--big{
+        height: 342px;
+    }
+    .about-two__txt.text-midle{
+        font-size: 15rem;
+    }
+    .about-two__links a{
+        font-size: 16rem;
+    }
+    .about-two__links{
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .slider-big__slide h3{
+        font-size: 28rem;
+        padding-bottom: 20px;
+    }
+    .slider-big__slide p{
+        font-size: 18rem;
+    }
+    .slider-big__slide p{
+        padding-bottom: 20px;
+    }
+    .slider-big__slide{
+        padding-bottom: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-big__slide h3,
+    .slider-big__slide p{
+        text-align: center;
+    }
+    .banner-info.banner-info--banerMortgage-two picture{
+        display: none;
+    }
+    .banner-info.banner-info--banerMortgage-two {
+        padding: 30px 15px 30px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .banner-info h2,
+    .banner-info p{
+        text-align: center;
+    }
+    .banner-info.banner-info--banerMortgage-two .banner-info__btn{
+        margin: 0 auto;
+    }
+    .banner-info.banner-info--banerMortgage-two .banner-info__box{
+        margin-bottom: 0px;
+    }
+    .bannerTwo p{
+        font-size: 15rem;
+    }
+    .bannerTwo__box{
+        padding: 0 15px;
+    }
+    .card-line-sliders{
+        grid-template-columns: 1fr;
+        grid-template-rows: 210px 64px;
+    }
+    .card-line-slider-big,
+    .card-line-sliders,
+    .card-line-slider-min{
+        height: 100%;
+    }
+    .card.line{
+        grid-template-columns: 319px 1fr;
+    }
+    .card-line-box.flex-col-hei{
+        height: max-content;
+        gap: 10px;
+    }
+    .card.line .card__title{
+        margin-bottom: 0px;
+    }
+    .card.line .card__price{
+        gap: 0px;
+    }
+    .card.line .card__price span{
+        margin-bottom: 10px;
+    }
+    .card.line .card__title,
+    .card.line .card__txt {
+        max-width: 350px; 
+        width: 100%;
+    }
+    .card-info{
+        grid-template-columns: 1fr;
+    }
+    .card-info-list{
+        border-radius: 0px 0px 10px 10px;
+        padding: 0px 10px 30px;
+    }
+    .card-info-sliders-box{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card-info-sliders{
+        grid-template-columns: 2fr 1fr;
+    }
+    .card-info-list__item-one.price{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card-info-list__item-one.name{
+        padding-bottom: 20px;
+    }
+    .card-info-list__item-one.price{
+        padding-block: 20px;
+    }
+    .card-info-list__item-one.list,
+    .card-info-list__item-one.year,
+    .card-info-list__item-one.riester,
+    .card-info-list__item-one.list.style-two,
+    .card-info-list__item-one.year.style-two,
+    .card-info-list__item-one.riester.style-two,
+    .card-info-list__item-one.price.style-two,
+    .card-info-list__item-one.name.style-three,
+    .card-info-list__item-one.list.style-three,
+    .card-info-list__item-one.year.style-three,
+    .card-info-list__item-one.riester.style-three{
+        padding: 20px 0px 20px 0px;
+    }
+    .card-info-list__item-one.price-top{
+        padding-bottom: 15px;
+    }
+    .card-info-accordion-item h4{
+        font-size: 20rem;
+    }
+    .card-info-accordion-item__body-box{
+        grid-column-gap: 35px;
+    }
+    .banner-min.--mb {
+        padding: 0 15px;
+        h3{
+            font-size: 20rem;
+            text-align: center;
+        }
+        padding-block: 20px;
+    }
+    .similar-offer__top{
+        padding-bottom: 30px;
+    }
+    .card-info-list__item-one.list ul li p{
+        font-size: 16rem;
+        line-height: 16px;
+    }
+    .card-info-list__item-one.price.style-three{
+        padding-bottom: 20px;
+    }
+    .card-characteristics {
+       grid-template-columns: 1fr;
+       grid-row-gap: 15px;
+    }
+    .montrage-accordion-inner{
+        .container{
+            padding-inline: 0;
+        }
+        .montrage-accordion__item{
+            padding-inline: 15px;
+        }
+    }
+    .banner-info__inner picture {
+        display: none;
+    }
+    .banner-info__inner{
+        padding-left: 0;
+    }
+    .banner-info.banner-info--one .banner-info__inner{
+        justify-content: center;
+    }
+    .banner-info.banner-info--one .banner-info__content{
+        padding-left: 0;
+    }
+    .btn-middle.banner-info__link {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-info.banner-info--two .banner-info__inner {
+        justify-content: center;
+    }
+    .banner-info.banner-info--two .banner-info__content{
+        padding-left: 0;
+    }
+    .banner-info.banner-info--one.reverse .banner-info__content{
+        padding-right: 0;
+    }
+    .banner-info__content-three{
+        flex-direction: column;
+        gap: 20px;
+        p br{
+            display: none;
+        }
+        p{
+            text-align: center;
+        }
+        ._main-title-big{
+            text-align: center;
+        }
+    }
+    .banner-info.banner-info--three{
+        min-height: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+    .banner-info__content-three{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .banner-info.banner-info--four{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner-info__content-six picture{
+        display: none;
+    }
+    .banner-info__content-six .banner-info__content-box{
+        padding-inline: 30px;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-right: 0;
+    }
+    .banner-info__content-six form .btn-middle{
+        padding: 15.5px 31px;
+        font-size: 14rem;
+        line-height: 22px;
+    }
+    .banner-info__content-six form{
+        max-width: 440px;
+        width: 100%;
+        margin-inline: auto;
+    }
+    .banner-info.banner-info--seven{
+        min-height: auto;
+        padding-block: 30px;
+        padding-inline: 30px;
+    }
+    .banner-info__content-seven button, .banner-info__content-seven a{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-info__content-seven{
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box button, .banner-info.banner-info--eight .banner-info__content-box a{
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .banner-info__content-eight{
+        gap: 15px;
+    }
+    .banner-top-two__form-inner{
+        padding-block: 10px;
+        padding-inline: 10px;
+    }
+    .banner-top-two__box{
+        padding-top: 40px;
+    }
+
+    .banner-top-two__form-inner{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .banner-top-two__form .banner-top-two__form-item-accordion:first-child,
+    .banner-top-two__form .banner-top-two__form-item-accordion:not(:first-child){
+        padding: 0;
+        border: none;
+        width: 100%;
+        max-width: 100%;
+    }
+    .banner-top-two__form-item-map{
+        padding-left: 0;
+    }
+    .banner-top-two picture{
+        width: 40%;
+    }
+    .banner-top-two__form-inner{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .banner-top-two__form-btn.btn-middle{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-top-two__form .banner-top-two__form-item-accordion:first-child .offer__filter-accordion-body.acordion-body{
+        left: 0;
+    }
+    .banner-top-two__form-item-accordion button {
+        max-width: 100%;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .banner-top-two__form-item-accordion button span{
+        padding-left: 0;
+        margin-left: 8px;
+        margin-right: auto;
+    }
+    .banner-top-two__form-item-accordion{
+        position: relative;
+
+        .offer__filter-accordion-body.acordion-body {
+            top: 22px;
+        }
+    }
+    .banner-top-two__form-links{
+        padding-left: 0;
+        padding-top: 6px;
+    }
+    .banner-top-two__form-links-filter{
+        padding-top: 0px;
+    }
+    .banner-top-two__tabs{
+        max-width: 100%;
+        width: 100%;
+        position: static;
+    }
+    .banner-top-two__tabs-btn{
+        width: 100%;
+        padding-inline: 5px;
+    }
+    .header__calculate,
+    .header__phone{
+        display: none;
+    }
+    .news__item picture,
+    .news__item.news__item-style-one picture,
+    .news__item.news__item-style-two picture {
+        margin-bottom: 15px;
+    }
+    .news__item time{
+        margin-bottom: 15px;
+    }
+    .news__item h4{
+        padding: 10px 0;
+    }
+    .news__item.news__item-style-one h4{
+        padding-bottom: 10px;
+    }
+    .news__item.news__item-style-one p{
+        margin-bottom: 15px;
+    }
+    .news__item.news__item-style-two h4{
+        padding-bottom: 10px;
+    }
+    .news__item.news__item-style-two p{
+        margin-bottom: 15px;
+    }
+
+    .header__dropdown-menu-close{
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    .header__dropdown-menu.active,
+    .header__dropdown-menu{
+        padding-top: 11px;
+    }
+    .header__search.active {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header__dropdown-menu {
+        border-radius: 0px;
+        overflow-y: scroll;
+        padding-bottom: 20px;
+        padding-inline: 15px;
+    }
+    .header.header_no-btn{
+        .header__button-burger{
+            display: flex;
+        }
+    }
+    .header__dropdown-menu-top{
+        flex-wrap: wrap;
+    }
+    .header__dropdown-menu-top{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .header__dropdown-menu-list.header__dropdown-menu-list--strong{
+        padding-left: 0px;
+    }
+    .header__dropdown-menu-body{
+        gap: 20px;
+    }
+    .header__dropdown-menu-top{
+        flex-wrap: wrap;
+        max-width: calc(100% - 48px);
+        width: 100%;
+    }
+    .footer__list-connection_style-three:first-child{
+        margin-right: 0;
+    }
+    .footer__list-social_style-three{
+        margin-left: 0;
+    }
+    .footer__list-connection.footer__list-connection_style-three{
+        gap: 20px;
+    }
+    .banner-info.banner-info--banerMortgage p{
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 910px) {
+    .header__dropdown-menu{
+        max-width: max-content;
+        min-width: auto;
+        padding-right: 24px;
+    }
+    .header__dropdown-menu-link.phone,
+    .header__dropdown-menu .header__search,
+    .header__dropdown-menu-link.mail,
+    .header__dropdown-menu-list.--mar-right,
+    .header__dropdown-menu-list.header__dropdown-menu-list--strong{
+        margin-right: 0;
+    }
+    .header__dropdown-menu-top{
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .header__dropdown-menu-list.header__dropdown-menu-list--strong{
+        padding-left: 0px;
+    }
+    .header__dropdown-menu-body{
+        gap: 20px;
+    }
+    .header__dropdown-menu-top{
+        flex-wrap: wrap;
+        max-width: calc(100% - 48px);
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .banerMortgage__content{
+        max-width: 100%;
+        width: 100%;
+        padding-inline: 40px;
+    }
+    .banerMortgage__inner picture{
+        display: none;
+    }
+    .banerMortgage__list{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .offer__filter-big{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .offer__filter-big.active .button-open-filter{
+        margin-bottom: 0px;
+    }
+    .about-two__inner{
+        grid-template-columns: 1fr;
+    }
+    .about-two__box picture.about-two__picture-hei--big {
+        display: none;
+    }
+    .about-two__box p.--mb-one,
+    .about-two__box p.--mb-two,
+    .about-two__box picture.about-two__picture-hei,
+    .about-two__links{
+        margin-bottom: 15px;
+    }
+    .about-two__box p.--mb-three,
+    .about-two__title{
+        margin-bottom: 25px;
+    }
+    .about-three__picture {
+        display: none;
+    }
+    .about-three{
+        grid-template-columns: 1fr 2fr;
+    }
+    .about-three__bg-decor{
+        height: 100%;
+        background-size: cover;
+    }
+    .about-three__box{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    .banerOne picture {
+        max-width: 100%;
+        width: 100%;
+    }
+    .banerOne picture img{
+        border-radius: 0px;
+        filter: brightness(65%);
+    }
+    .banerOne {
+        position: relative;
+    }
+    .banerOne__content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        background: rgba(255, 255, 255, 0.192);
+        backdrop-filter: blur(2px);
+    }
+    .banerOne.mb{
+        margin-top: 0px;
+    }
+    .banerOne__content-link.btn-middle {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banerOne__content h2,
+    .banerOne__content p {
+        color: white;
+    }
+    .banerOne picture{
+        
+        height: 100%;
+        img {
+            height: 100%;
+            min-height: 580px;
+        }
+    }
+    .mortgage__box-item{
+        padding: 13px;
+    }
+    .mortgage__box-item--left{
+        gap: 10px;
+    }
+    .mortgage__form{
+        padding: 15px;
+    }
+    .banerOne.--mt {
+        margin-top: 0;
+    }
+    .banerOne.--mt-t{
+        margin-top: 0px;
+    }
+    .card.line{
+        grid-template-columns: 260px 1fr;
+    }
+    .banerOne.--catalog{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 780px) {
+    .about-three{
+        grid-template-columns: 245px 1fr;
+    }
+    .about-three__list{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .bannerSlider__slide-title{
+        max-width: calc(80% - 50px);
+        width: 100%;
+        font-size:  30rem;
+    }
+    .bannerSlider__slide{
+        padding-inline: 15px;
+    }
+    .cards__list.col-three{
+        grid-template-columns: minmax(280px, 1fr);
+        grid-gap: 15px;
+    }
+    ._main-title{
+        font-size: 30rem;
+        line-height: 120%;
+    }
+    .banner-info.banner-info--one .banner-info__content,
+    .banner-info.banner-info--two .banner-info__inner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .banner-info.banner-info--one .banner-info__inner picture{
+        max-width: 40%;
+    }
+    .banner-info__inner{
+        overflow: hidden;
+    }
+    .banner-info__content{
+        max-width: 100%;
+    }
+    .news__slide p br {
+        display: none;
+    }
+    .news__top{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .news__top-buttons{
+        margin-right: 0;
+        margin-left: auto;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+    .about.about--one .container{
+        padding: 0px 0px 0px 15px;
+    }
+    .about.about--one picture img {
+        border-radius: 25px 0px 0px 25px;
+    }
+    .banerMortgage__content{
+        padding-inline: 30px;
+    }
+    .banerMortgage__inner h2{
+        font-size: 30rem;
+    }
+    .mortgage__box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .mortgage__calculate_open{
+        display: block;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .card.line .card__title,
+     .card.line .card__txt{
+        max-width: 300px;
+    }
+    .card.line .card__title{
+        font-size: 17rem;
+        line-height: 120%;
+    }
+    .banner-min {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-three {
+        grid-template-columns: 1fr;
+        picture{
+            display: none;
+        }
+    }
+    .banner-three__box {
+        padding-left: 0px;
+        padding-inline: 15px;
+        align-items: center;
+        h3,p{
+            text-align: center;
+        }
+    }
+    .montrage-top-banner__box-list li{
+        padding: 20px;
+    }
+    .montrage-top-banner__box-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-row-gap: 10px;
+    }
+    .montrage-top-banner__box-list li.montrage-top-banner__box-links a{
+        padding: 20px;
+    }
+    .montrage-top-banner__box-title{
+        padding-top: 50px;
+    }
+    .montrage-top-banner__box-list{
+        max-width: 47%;
+        width: 100%;
+    }
+    .mortgage__form-buttons{
+        flex-wrap: wrap;
+    }
+    .montrage-accordion__item-top{
+        align-items: flex-start;
+    }
+    .montrage-accordion__item-body{
+        padding-left: 0;
+    }
+    .montrage-accordion__item{
+        position: relative;
+    }
+    .banner-info.banner-info--one.reverse .banner-info__inner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .banner-info.banner-info--eight picture{
+        display: none;
+    }
+    .banner-info__content-eight{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-info.banner-info--eight{
+        border-radius: 35px;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box{
+        margin-bottom: 0px;
+    }
+    .banner-info.banner-info--eight{
+        padding-left: 30px;
+        padding-block: 30px;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box{
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .about-three__box{
+        display: flex;
+        flex-direction: column;
+
+        .about-two__btn-info.btn-middle{
+            order: 4;
+            display: block;
+            max-width: max-content;
+            width: 100%;
+        }
+        .about-three__list{
+            padding-top: 0px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .footer__list_social{
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .footer__txt{
+        order: 4;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .footer__list{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer__list .footer__list-connection:not(:last-child){
+        margin-bottom: 0px;
+    }
+    .footer__list-connection a svg{
+        margin-right: 5px;
+    }
+    .footer__logo{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .card.line{
+        padding: 15px;
+    }
+    .card.line .card__favotites{
+        top: 15px;
+        right: 15px;
+    }
+    .card.line{
+        grid-template-columns: 1fr;
+    }
+    .card.line .card__favotites{
+        top: 20px;
+        right: 20px;
+    }
+    .card-line-sliders{
+        grid-template-rows: 250px 100px;
+    }
+    .card-line-slide-big picture,
+    .card-line-slide-min picture{
+        height: 100%;
+    }
+    .card.line .card__title, .card.line .card__txt{
+        max-width: 100%;
+    }
+    .card__info-box{
+        max-width: 250px;
+        width: 100%;
+    }
+    .card-info-sliders{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        grid-template-rows: 449px 175px;
+    }
+    .card-info-slider-big .card__info-box{
+        max-width: calc(100% - 20px);
+        width: 100%;
+        top: 10px;
+        left: 10px;
+    }
+    .card-info-slider-big .card__info-box p{
+        padding: 12px;
+    }
+    .card-info-sliders{
+        grid-template-rows: 380px 120px;
+    }
+    .card-info-accordion-item__btn{
+        top: 0;
+        right: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 75px;
+
+        svg {
+            margin-left: 10px;
+            width: 16px;
+        }
+        &::before{
+            content: '';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -1px;
+            left: -10px;
+            background-color:transparent;
+            border-top-right-radius: 10px;
+            box-shadow: 5px -2px 0px 2px #f9f9f9;
+        }
+        &::after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+
+            right: 1px;
+            bottom: -10px;
+            background-color:transparent;
+            border-top-right-radius: 10px;
+            box-shadow: 5px -2px 0px 2px #f9f9f9;
+        }
+        &::after,
+        &::before{
+            transition: all .3s ease-in-out;
+        }
+
+        &.active{
+            &::after,
+            &::before{
+                box-shadow: 5px -2px 0px 2px var(--colorLight);
+            }
+        }
+    }
+    .card-info-accordion-item{
+        overflow: hidden;
+    }
+    .card-info-accordion-item.active .card-info-accordion-item__body-text p:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .card-info-accordion-item__body-box-elem.style-two{
+        gap: 6.5px;
+    }
+    .similar-offer__slider .card__info-box{
+        max-width: calc(100% - 60px);
+    }
+    .card-characteristics__box.card-characteristics__box-text, .card-characteristics__box.card-characteristics__box-list{
+        padding: 15px;
+    }
+    .montrage-accordion__item-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        width: 75px;
+
+        svg {
+            margin-left: 10px;
+            width: 16px;
+        }
+        &::before{
+            content: '';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            top: -1px;
+            left: -10px;
+            background-color:transparent;
+            border-top-right-radius: 10px;
+            box-shadow: 5px -2px 0px 2px #f9f9f9;
+        }
+        &::after{
+            content: '';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+
+            right: 1px;
+            bottom: -10px;
+            background-color:transparent;
+            border-top-right-radius: 10px;
+            box-shadow: 5px -2px 0px 2px #f9f9f9;
+        }
+        &::after,
+        &::before{
+            transition: all .3s ease-in-out;
+        }
+
+        &.active{
+            &::after,
+            &::before{
+                box-shadow: 5px -2px 0px 2px var(--colorLight);
+            }
+        }
+    }
+    .montrage-accordion__item.active {
+        border-top-color: var(--colorLight);
+    }
+    .montrage-accordion__item-top{
+        max-width: calc(100% - 75px);
+    }
+    .banner-top-two__picture,
+    .banner-top-two picture{
+        display: none;
+    }
+    .banner-top-two__box{
+        max-width: 100%;
+        width: 100%;
+        padding-right: 40px;
+    }
+    .banner-top-two__title{
+        max-width: 100%;
+        width: 100%;
+        br {
+            display: none;
+        }
+    }
+    .banner-top-two__inner{
+        min-height: auto;
+    }
+    .footer__top_style-three{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__list-connection.footer__list-connection_style-three{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .about.about--one .about__inner{
+        grid-template-columns: 1fr;
+        picture{
+            display: none;
+        }
+    }
+    .about.about--one{
+        .container{
+            padding: 0 15px;
+        }
+    }
+    .offer__filter-big{
+        grid-template-columns: 1fr;
+    }
+    .offer__filter-big.active .offer__filter-elem-buttons{
+        max-width: 100%;
+    }
+    .offer__filter-big.active{
+        padding-bottom: 82px;
+        margin-bottom: 0;
+        padding-bottom: 150px;
+    }
+    .offer__filter-big.active .offer__filter-elem-buttons{
+        bottom: 85px;
+    }
+    .offer__filter-big.active .button-open-filter{
+        right: 0%;
+        bottom: 40px;
+    }
+    .offer__filter-name.offer__filter-name_transparent {
+        display: none;
+    }
+    .about-three {
+        grid-template-columns: 190px 1fr;
+    }
+    .bannerTwo h2{
+        font-size: 28rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .ui__ofer_one {
+        .offer__filter.pb{
+            padding-bottom: 30px;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .offer__filter-accordion{
+            max-width: calc(100% - 50px);
+            width: 100%;
+        }
+        .offer__filter-popularity{
+            min-width: 100%;
+        }
+        .offer__filter .offer__filter-accordion-body.acordion-body{
+            max-width: 100%;
+            width: 100%;
+        }
+        .offer__filter-region,
+        .offer__filter-btn{
+            max-width: 100%;
+            width: 100%;
+        }
+        .offer__filter{
+            position: relative;
+        }
+        .offer__filter-pos{
+            position: absolute;
+            right: 0;
+            bottom: 30px;
+        }
+    }
+    .banner-info.banner-info--one .banner-info__inner{
+        flex-direction: column;
+    }
+    .banner-info.banner-info--one .banner-info__inner picture{
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+    }
+    .banner-info.banner-info--one .banner-info__content{
+        padding: 30px 15px;
+    }
+    .banner-info.banner-info--two .banner-info__inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-info__content p br {
+        display: none;
+    }
+    .banner-info h2{
+        font-size: 25rem;
+        line-height: 120%;
+    }
+    .banerMortgage__content{
+        padding-inline: 15px;
+    }
+    .mortgage__top{
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mortgage__buttons{
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .offer__filter {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .offer__filter-btn,
+    .offer__filter-region{
+        max-width: 100%;
+        width: 100%;
+    }
+    .offer__filter-accordion-top{
+        max-width: 100%;
+        width: 100%;
+    }
+    .offer__filter-popularity{
+        max-width: 100%;
+        width: 100%;
+    }
+    .offer__filter .offer__filter-accordion-body.acordion-body{
+        max-width: 100%;
+        width: 100%;
+    }
+    .offer__filter-elem.gapRaight .offer__filter-item:not(:first-child){
+        margin-right: 3px;
+    }
+    .banner-info.banner-info--one.banner-info-style {
+        p,h2{
+            text-align: center;
+        }
+        h2{
+            font-size: 28rem;
+        }
+    }
+    .slider-big .swiper-button-next,
+    .slider-big .swiper-button-prev{
+        position: static;
+    }
+    .slider-big__arrow {
+        padding: 20px;
+        border-radius: var(--border-rudius) 0 0 0 ;
+        border-top-left-radius: var(--border-rudius);
+        border: 1px solid #fff;
+        background: rgba(255, 255, 255, 0.192);
+        backdrop-filter: blur(2px);
+        position: relative;
+        max-width: max-content;
+        position: absolute;
+        right: 0.5px;
+        bottom: 0.5px;
+        display: flex;
+        flex-direction: row-reverse;
+        z-index: 2;
+        gap: 8px;
+    }
+    .slider-big__slide h3{
+        font-size: 25rem;
+    }
+    .slider-big__slide p{
+        font-size: 16rem;
+        line-height: 110%;
+    }
+    .filter-position-performance.pb{
+        max-width: 100%;
+        width: 100%;
+    }
+    #cardPosLine{
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .pagination__btn-number{
+        font-size: 15rem;
+        min-width: 25px;
+        min-height: 25px;
+
+        &:nth-child(even) {
+            display: none;
+        }
+    }
+    .pagination__btn-next{
+        padding: 5px 10px;
+    }
+    .card-info-accordion-item{
+        padding: 25px 20px;
+    }
+    .card-info-accordion-item__body-box{
+        grid-template-columns: 1fr;
+    }
+    .card-info-accordion-item h4 {
+        max-width: calc(100% - 90px);
+        width: 100%;
+        text-align: left;
+    }
+    .similar-offer__top{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .card-characteristics__box.card-characteristics__box-list ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+    .montrage-top-banner picture{
+        display: none;
+    }
+    .montrage-top-banner__box-text,
+    .montrage-top-banner__box-title,
+    .montrage-top-banner__box-list{
+        max-width: 100%;
+        width: 100%;
+    }
+    .montrage-top-banner__box-text{
+        padding-bottom: 30px;
+    }
+    .montrage-top-banner__box-title{
+        padding-top: 15px;
+    }
+    .mortgage__buttons {
+        justify-content: flex-start;
+    }
+    ._main-title-xxl, .banner-info h2._main-title-xxl{
+        font-size: 25rem;
+        line-height: 120%;
+    }
+    .banner-info.banner-info--two p {
+        font-size: 15rem;
+        line-height: 125%;
+    }
+    .banner-info.banner-info--two .banner-info__content{
+        padding-bottom: 30px;
+    }
+    .banner-info.banner-info--one.reverse .banner-info__inner{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-info.banner-info--one.reverse .banner-info__content {
+        padding-bottom: 30px;
+    }
+    .banner-info.banner-info--one .banner-info__inner{
+        padding-top: 0px;
+    }
+    .banner-info.banner-info--three{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-info__content-three{
+        padding-bottom: 30px;
+    }
+    .banner-info__content-three form{
+        flex-direction: column;
+        padding: 6px 7px 7px 6px;
+        button {
+            max-width: 100%;
+            width: 100%;
+        }
+
+        label{
+            max-width: 140px;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .banner-info__content-three ._main-title-big{
+        font-size: 25rem;
+    }
+    .banner-info.banner-info--four {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-info__content-six form{
+        flex-direction: column;
+        padding: 6px 7px 7px 6px;
+
+        label{
+            max-width: 140px;
+            width: 100%;
+            height: 40px;
+            display: flex;
+        }
+    }
+    .banner-info__content-six form .btn-middle{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-info__content-six .banner-info__content-box{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .banner-info.banner-info--seven{
+        padding-inline: 15px;
+    }
+    .banner-info.banner-info--eight .banner-info__content-box h2{
+        font-size: 25rem;
+        line-height: 120%;
+    }
+    .banner-top-two__box{
+        padding-inline: 15px;
+        padding-block: 30px ;
+    }
+    .header__dropdown-menu-body{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 510px) {
+    .about-three {
+        grid-template-columns: 1fr;
+    }
+    .about-three__bg-decor{
+        display: none;
+    }
+    .about-three{
+        padding-left: 15px;
+    }
+    .banner-info.banner-info--banerMortgage-two h2{
+        font-size: 28rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-middle.banner-info__link{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .about.about--one .about__btn.btn-middle{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .bannerSlider__slide-title{
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+    .bannerSlider__arrows{
+        max-width: 140px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .offer{
+        padding-top: 40px;
+    }
+    .offer__btn-all.btn-middle {
+        max-width: 100%;
+    } 
+    .card__advantages-item span{
+        font-size: 14rem;
+    }
+    .card__advantages{
+        gap: 10px;
+    }
+    .card__advantages-item:first-child,
+    .card__advantages-item:nth-child(2){
+        margin-right: 0px;
+    }
+    .card__title{
+        font-size: 16rem;
+    }
+    .card__price{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .card__price p{
+        font-size: 20rem;
+    }
+    .card__picture{
+        height: 220px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card__favotites{
+        top: 6px;
+        right: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card__favotites svg {
+        width: 19px;
+    }
+    .banerOne__content {
+        max-width: 90%;
+        width: 100%;
+    }
+    .btn-filter-reg, .mortgage__btn, .news__filter-btn, .offer__filter-btn{
+        padding: 8px;
+    }
+    .news__top-arrows .swiper-button-next, .news__top-arrows .swiper-button-prev{
+        width: 35px;
+        height: 35px;
+    }
+    .offer .cards__list{
+        padding-bottom: 40px;
+    }
+    .banerOne{
+        margin-bottom: 40px;
+    }
+    section.news{
+        padding: 40px 0px 40px 0px;
+        margin-bottom: 40px;
+    }
+    .about.about--one {
+        margin-bottom: 40px;
+    }
+    .about__text{
+        font-size: 15rem;
+    }
+    .banerMortgage__list{
+       grid-template-columns: 1fr;
+    }
+    .mortgage{
+        padding: 40px 0px 40px 0px;
+    }
+    .bannerSlider__slider{
+        margin-bottom: 40px;
+    }
+    .offer__filter-big{
+        padding-bottom: 40px;
+    }
+    .about-two{
+        padding: 40px 0px 40px 0px;
+    }
+    .about-two__btn-info.about-two__btn-size-min{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .about-two__links-phone p{
+        display: none;
+    }
+    .slider-big__slide-btn{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .about-three{
+        padding-block: 40px;
+    }
+    .about-three__title{
+        padding-bottom: 30px;
+    }
+    .about-three__box p{
+        margin-bottom: 15px;
+    }
+    .about-three__box p.mb{
+        margin-bottom: 30px;
+    }
+    .about-three__box .about-two__btn-info.btn-middle{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-info.banner-info--banerMortgage-two .banner-info__btn{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .mortgage.--mt-3{
+        padding-top: 40px;
+    }
+    .card-line-sliders{
+        grid-template-rows: 200px 70px;
+    }
+    .card__advantages-box p{
+        font-size: 11rem;
+    }
+    .card.line .card__advantages-box{
+        top: 70px;
+        right: 10px;
+        z-index: 2;
+        height: max-content;
+    }
+    .card.line{
+        padding: 10px 10px 5px 10px;
+    }
+    .listInnerFilter .cards__list{
+        padding-bottom: 40px;
+    }
+    .cards__list{
+        padding-bottom: 40px;
+    }
+    .pagination{
+        padding-bottom: 40px;
+    }
+    ._main-title-big{
+        font-size: 28rem;
+        line-height: 30.8px;
+    }
+    .card-info-sliders{
+        grid-template-rows: 340px 120px;
+    }
+    .banner-min__btn.btn-middle {
+        max-width: 100%;
+        width: 100%;
+    }
+    .banner-min.--mb{
+        margin-bottom: 40px;
+    }
+    .similar-offer-slider{
+        padding-bottom: 40px;
+    }
+    .banner-three__btn.btn-middle {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .banner-three__box h3{
+        font-size: 25rem;
+        line-height: 32.6px;
+    }
+    .banner-three.mb{
+        margin-bottom: 40px;
+    }
+    ._main-title{
+        font-size: 28rem;
+    }
+    .montrage-top-banner.--mb{
+        margin-bottom: 40px;
+    }
+    .montrage-accordion__item-title{
+        font-size: 20rem;
+        line-height: 22.6px;
+    }
+    .montrage-accordion__item-top{
+        gap: 15px;
+    }
+    .banner-info.banner-info--seven.mb,
+    .banner-info.banner-info--six.mb,
+    .banner-info.banner-info--one.mb,
+    .banner-info.banner-info--two.mb,
+    .banner-info.banner-info--one.reverse.mb,
+    .banner-info.banner-info--three.mb,
+    .banner-info.banner-info--four.mb,
+    .banner-info.banner-info--eight.mb{
+        margin-bottom: 40px;
+    }
+    .banner-top-two__title {
+        font-size: 30rem;
+        line-height: 35.4px;
+    }
+    .about-page__project-arrows .swiper-button-prev, .about-page__project-arrows .swiper-button-next{
+        width: 35px;
+        height: 35px;
+    }
+    .about-page__project-arrows{
+        gap: 8px;
+    }
+}
+
+@media (max-width: 410px) {
+    .card-info-slider-min{
+        display: none;
+    }
+    .card-info-sliders{
+        grid-template-rows: 400px;
+    }
+    .card-info-slider-big .card__info-box p{
+        padding: 10px;
+    }
+    .montrage-accordion__item-top{
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .offer__filter-elem.flex-gap.ali-end.hei{
+        flex-direction: column;
+    }
+    .offer__filter-big.active{
+        padding-bottom: 220px;
+    }
+    .button-open-filter{
+        right: 0;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .offer__filter-elem.gapRaight .offer__filter-item:not(:first-child){
+        padding-inline: 4px;
+    }
+    .about-two__links a{
+        font-size: 14rem;
+    }
+    .filter-position-performance{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #cardPosLine{
+        margin: 0;
+    }
+    .filter-position-performance__btn{
+        max-width: 100%;
+        width: 100%;
+    }
+}
