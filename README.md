@@ -7,4 +7,8 @@
 <a href="https://qscape.ru/nedviga/verstka/catalog.php">Каталог</a><br>
 <a href="https://qscape.ru/nedviga/verstka/montrage.php">Ипотека</a><br>
 <a href="https://qscape.ru/nedviga/verstka/card.php">Карточка товара</a><br>
+<a href="https://qscape.ru/nedviga/verstka/cardNoBg.php">Карточка товара </a><span>ver 2.</span><br>
+<a href="https://qscape.ru/nedviga/verstka/cardStyleThree">Карточка товара </a><span>ver 3.</span><br>
 <a href="https://qscape.ru/nedviga/verstka/favorites.php">Избранное</a><br>
+<a href="https://qscape.ru/nedviga/verstka/viewed.php">Недавно просмотренно</a>
+<hr>
