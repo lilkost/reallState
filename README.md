@@ -5,4 +5,5 @@
 <a href="https://qscape.ru/nedviga/verstka/index3.php" align="center">Главная </a><span>ver 3.</span><br>
 <hr>
 <a href="https://qscape.ru/nedviga/verstka/catalog.php">Каталог</a><br>
-<a href="https://qscape.ru/nedviga/verstka/montrage.php">Ипотека</a>
+<a href="https://qscape.ru/nedviga/verstka/montrage.php">Ипотека</a><br>
+<a href="https://qscape.ru/nedviga/verstka/card">Карточка товара</a>
