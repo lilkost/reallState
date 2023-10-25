@@ -6,4 +6,4 @@
 <hr>
 <a href="https://qscape.ru/nedviga/verstka/catalog.php">Каталог</a><br>
 <a href="https://qscape.ru/nedviga/verstka/montrage.php">Ипотека</a><br>
-<a href="https://qscape.ru/nedviga/verstka/card">Карточка товара</a>
+<a href="https://qscape.ru/nedviga/verstka/card.php">Карточка товара</a>
